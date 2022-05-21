@@ -71,6 +71,9 @@
     "verbose": true,
     "setupFilesAfterEnv": [
       "<rootDir>/src/__test__/setupTest.js"
-    ]
+    ],
+    "moduleNameMapper": {
+      "\\.(css|less|scss|sass|styl)$": "<rootDir>/src/__mocks__/styleMock.js"
+    }
   }
 }
