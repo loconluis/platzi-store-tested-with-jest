@@ -1,8 +1,8 @@
 import React from 'react';
 import { mount, shallow } from 'enzyme';
+import { create } from 'react-test-renderer';
 import ProviderMock from '../../__mocks__/ProviderMock';
 import Header from '../../components/Header';
-import { create } from 'react-test-renderer';
 
 describe('<Header />', () => {
   // Con shallow puedo usar dos componentes y probarlo como uno solo
